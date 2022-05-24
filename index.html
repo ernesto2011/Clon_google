@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clon de Google</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Barra de menú -->
+    <header>
+      <nav>
+        <ul class="nav-right-section">
+          <li>
+            <a href="https://www.google.com/intl/es-419/gmail/about/">Gmail</a>
+          </li>
+          <li>
+            <a href="https://www.google.com.mx/imghp?hl=es-419&tab=ri&ogbl">Imágenes</a>
+          </li>
+          <li class="menu-icon">
+            <a href="">
+              <img src="./img/Icono1.png" alt="Icono" width="25px" />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="./img/Icono2.png" alt="Foto de perfil" width="38px" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--  parte central de google imagen y input de busqueda -->
+    <main class="contenedor">
+      <section class="logo">
+        <img id="logo" src="./img/google_logo.png" alt="logo de Google">
+      </section>
+
+      <section class="search">
+          <div class="search__box">
+            <span><i class="fa fa-search"></i></span>
+            <input type="text" id="input-search" placeholder="Buscar en Google o escribir una URL">
+            <span><i class="fa fa-microphone"></i></span>
+          </div>
+      </section>
+      <section class="botones">
+        <button class="btn-search" id="search" type="button">Buscar con Google</button>
+        <button class="btn-search" id="lucky" type="button">Me siento con suerte</button>
+
+      </section>
+    </main>
+    <footer>
+        <div class="footer-up">
+            <ul class="pais">
+                <li>
+                    <a href="">México</a>
+                </li>
+            </ul>
+          </div>
+          <div class="footer-down">
+            <ul class="footer-left">
+                <li>
+                    <a href="https://about.google/">Sobre Google</a>
+                </li>
+                <li>
+                    <a href="https://ads.google.com/intl/es-419_mx/home/">Publicidad</a>
+                </li> 
+                <li>
+                    <a href="https://smallbusiness.withgoogle.com/intl/es-419_mx/">Negocios</a>
+                </li> 
+                <li>
+                    <a href="https://www.google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a>
+                </li>
+            </ul>
+            <ul class="footer-right">
+                <li>
+                    <a href="https://policies.google.com/privacy?hl=es-419&fg=1">Privacidad</a>
+                </li>
+                <li>
+                    <a href="https://policies.google.com/terms?hl=es-419&fg=1">Condiciones</a>
+                </li>
+                <li>
+                    <a href="">Preferencias</a>
+                </li>
+            </ul>
+          </div>
+    </footer>
+    <!-- link para cargar los iconos de search y microphone -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+  </body>
+</html>
